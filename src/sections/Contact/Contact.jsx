@@ -24,7 +24,7 @@ function Contact() {
     <a href="https://wa.me/917201956010?text=Hello%20Darvin,%20I%20visited%20your%20portfolio" className="social-link" target="_blank" rel="noopener noreferrer">
       <i class="fa-brands fa-whatsapp"></i>
     </a>
-    <a href="tel:+919876543210" className="social-link" target="_blank" rel="noopener noreferrer">
+    <a href="tel:+917201956010" className="social-link" target="_blank" rel="noopener noreferrer">
       <i class="fa-solid fa-phone"></i>
     </a>
   </div>

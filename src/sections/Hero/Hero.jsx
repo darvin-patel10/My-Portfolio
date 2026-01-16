@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import profileImage from "/N_Darvin.png";
+import profileImage from "/Darvin.png";
 
 function Hero() {
   return (

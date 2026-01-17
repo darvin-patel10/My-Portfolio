@@ -15,6 +15,7 @@
 
 .hero-content {
   max-width: 1200px;
+  margin-left: 14% ;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -166,5 +167,11 @@
   .hero-buttons {
     justify-content: center;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 1050px) {
+  .hero-content {
+    margin: 0px;
   }
 }

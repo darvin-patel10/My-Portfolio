@@ -20,7 +20,7 @@ function Hero() {
           </p>
 
           <div className="hero-buttons">
-            <a href="/resume.pdf" target="_blank" className="btn primary">
+            <a href="https://drive.google.com/file/d/1ylRSyzEhP-m31mCm7bc0Lrtde2ABXPj_/view?usp=sharing" target="_blank" className="btn primary">
               Resume
             </a>
             <a href="#contact" className="btn secondary">

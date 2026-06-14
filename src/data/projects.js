@@ -16,13 +16,36 @@ const projects = [
     github: "https://github.com/darvin-patel10/GlobeTrekker.git",
   },
   {
-    title: "HardHub – Hardware E-Commerce Platform ",
+    title: "HardHub – Hardware E-Commerce Platform",
     description:
-      "Built a full-stack web application that connects hardware product buyers and sellers through dedicated interfaces.Implemented key features like user authentication, form validation, and RESTful APIs. I am Currently Working on This Project",
+      "Built a full-stack web application that connects hardware product buyers and sellers through dedicated interfaces. Implemented key features like user authentication, form validation, and RESTful APIs. Currently working on this project.",
     tech: ["HTML", "CSS", "JavaScript", "Node.js", "Express", "JWT", "MongoDB"],
-    live: "https://github.com/darvin-patel10/HardHub.git",
+    live: "https://hardhub.onrender.com/",
     github: "https://github.com/darvin-patel10/HardHub.git",
   },
 ];
 
-export default projects;
+const experiences = [
+  {
+    role: "MERN Stack Developer Intern",
+    company: "Under Faculty Mentorship",
+    type: "Freelance",
+    duration: "December 2025 – March 2026",
+    location: "Remote",
+    description:
+      "Collaborated on web development projects under faculty mentorship, applying MERN-Stack development concepts and contributing to real-world application development for practical learning.",
+    tech: ["React", "Node.js", "Express.js", "MongoDB", "MySQL"],
+  },
+  {
+    role: "Developer Intern",
+    company: "Nirami Solutions",
+    type: "Internship",
+    duration: "March 2026 – Present",
+    location: "WFO",
+    description:
+      "In this internship working on real-world projects such as AthleteBnB and GNGC4Golf using ReactJS. Gained hands-on experience in frontend development and basic knowledge of Nextjs while collaborating on feature development and application enhancements.",
+    tech: ["React", "Tailwind CSS", "REST API", "Git", "Basic Nextjs"],
+  }
+];
+
+export { projects, experiences };

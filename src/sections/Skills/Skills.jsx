@@ -10,10 +10,12 @@ function Skills() {
         <div className="skill-card">
           <h3>Frontend</h3>
           <ul>
-            <li>React.js</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Tailwind CSS</li>
             <li>JavaScript (ES6+)</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
+            <li>React.js</li>
+            <li>Basic Next.js</li>
           </ul>
         </div>
 

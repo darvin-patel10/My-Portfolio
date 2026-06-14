@@ -1,0 +1,210 @@
+/*     EXPERIENCE SECTION     */
+
+.experience {
+  width: 100%;
+  padding: 100px 50px;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #e5e7eb;
+}
+
+/* Section title — same gradient + underline as Projects */
+.exp-section-title {
+  text-align: center;
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 60px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #22c55e, #3b82f6);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.exp-section-title::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #22c55e, #3b82f6);
+  display: block;
+  margin: 15px auto 0;
+  border-radius: 4px;
+}
+
+/* ── Timeline wrapper ── */
+.experience-container {
+  max-width: 860px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Row: spine + card ── */
+.exp-card {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+}
+
+/* Spine column */
+.exp-spine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 10px;
+}
+
+.exp-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #22c55e, #3b82f6);
+  box-shadow: 0 0 10px rgba(34, 197, 94, 0.55);
+  flex-shrink: 0;
+}
+
+.exp-line {
+  width: 2px;
+  flex: 1;
+  min-height: 36px;
+  margin-top: 6px;
+  margin-bottom: -4px;
+  background: linear-gradient(
+    to bottom,
+    rgba(34, 197, 94, 0.45),
+    rgba(59, 130, 246, 0.12)
+  );
+}
+
+/* ── Card body — mirrors .project-card ── */
+.exp-body {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 30px 32px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  margin-bottom: 32px;
+  transition: 0.35s ease;
+}
+
+.exp-body:hover {
+  transform: translateY(-7px);
+  border-color: rgba(34, 197, 94, 0.4);
+  box-shadow: 0 20px 40px rgba(34, 197, 94, 0.13);
+}
+
+/* Header: title group left, badges right */
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.exp-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Role — same gradient as .project-card h3 */
+.exp-role {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  background: linear-gradient(90deg, #22c55e, #38bdf8);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.exp-company {
+  font-size: 0.97rem;
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+/* Badge stack */
+.exp-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.exp-badge {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.exp-badge--type {
+  color: #a78bfa;
+  border: 1px solid rgba(167, 139, 250, 0.3);
+  background: rgba(167, 139, 250, 0.07);
+}
+
+.exp-badge--duration {
+  color: #22c55e;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  background: rgba(34, 197, 94, 0.07);
+}
+
+.exp-badge--location {
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  background: rgba(56, 189, 248, 0.06);
+}
+
+/* Description — same as .project-card p */
+.exp-description {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #cbd5f5;
+  margin-bottom: 20px;
+}
+
+/* Tech pills — identical tokens to Projects .tech-stack */
+.exp-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.exp-tech span {
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  border-radius: 20px;
+  background: rgba(56, 189, 248, 0.08);
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .experience {
+    padding: 70px 20px;
+  }
+
+  .exp-card {
+    gap: 16px;
+  }
+
+  .exp-body {
+    padding: 22px 20px;
+  }
+
+  .exp-header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .exp-meta {
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

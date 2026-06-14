@@ -8,21 +8,15 @@ function About() {
 
         <div className="about-content">
             <p>
-            I am a passionate MERN Stack Developer with hands-on experience
-            building real-world web applications using React, Node.js,
-            Express, and MongoDB.
+            I am a passionate Full-Stack Developer with hands-on experience building real-world web applications using ReactJS, Node.js, Express.js, MongoDB, and MySQL.
             </p>
 
             <p>
-            I enjoy solving problems, writing clean code, and learning new
-            technologies. I have built multiple projects including
-            interactive games, management systems, and full-stack web apps.
+            During my internship at Nirami Solutions, I worked on live projects such as AthleteBnB and GNGC4Golf, strengthening my skills in frontend development, API integration, and responsive user interface design.
             </p>
 
             <p>
-            Currently, I am focused on improving my data structures,
-            backend architecture, and system design skills to grow as a
-            professional software engineer.
+            I enjoy solving problems, writing clean and maintainable code, and continuously learning new technologies. Currently, I am focused on enhancing my backend development, data structures, and system design skills to grow as a software engineer.
             </p>
         </div>
     </section>

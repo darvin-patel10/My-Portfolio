@@ -30,7 +30,7 @@ const experiences = [
     role: "MERN Stack Developer Intern",
     company: "Under Faculty Mentorship",
     type: "Freelance",
-    duration: "December 2025 – March 2026",
+    duration: "September 2025 – December 2025",
     location: "Remote",
     description:
       "Collaborated on web development projects under faculty mentorship, applying MERN-Stack development concepts and contributing to real-world application development for practical learning.",

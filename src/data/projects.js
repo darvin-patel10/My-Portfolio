@@ -37,7 +37,7 @@ const experiences = [
     tech: ["React", "Node.js", "Express.js", "MongoDB", "MySQL"],
   },
   {
-    role: "Developer Intern",
+    role: "ReactJS Developer Intern",
     company: "Nirami Solutions",
     type: "Internship",
     duration: "January 2026 – June 2026",

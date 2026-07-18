@@ -40,7 +40,7 @@ const experiences = [
     role: "Developer Intern",
     company: "Nirami Solutions",
     type: "Internship",
-    duration: "March 2026 – Present",
+    duration: "January 2026 – June 2026",
     location: "WFO",
     description:
       "In this internship working on real-world projects such as AthleteBnB and GNGC4Golf using ReactJS. Gained hands-on experience in frontend development and basic knowledge of Nextjs while collaborating on feature development and application enhancements.",

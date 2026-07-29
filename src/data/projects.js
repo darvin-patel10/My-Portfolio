@@ -23,6 +23,14 @@ const projects = [
     live: "https://hardhub.onrender.com/",
     github: "https://github.com/darvin-patel10/HardHub.git",
   },
+  {
+    title: "Full-Stack Clinic Management System",
+    description:
+      "Architected a responsive full-stack healthcare management web application using React, Node.js, and Express with Vite and Tailwind CSS, streamlining patient registration, medicine inventory tracking, and operational dashboard analytics. Engineered role-based access control with JWT authentication and Nodemailer OTP verification, while leveraging node-cron to automate background log cleanup and session management tasks.",
+    tech: ["React", "Node.js", "Express", "Vite", "Tailwind CSS", "JavaScript", "JWT", "MongoDB", "Nodemailer", "node-cron"],
+    live: "https://clinic-management-system-djsx.vercel.app/",
+    github: "https://github.com/darvin-patel10/Clinic-Management-System.git",
+  },
 ];
 
 const experiences = [

@@ -31,6 +31,14 @@ const projects = [
     live: "https://clinic-management-system-djsx.vercel.app/",
     github: "https://github.com/darvin-patel10/Clinic-Management-System.git",
   },
+  {
+    title: "Pantry Pulse - Personal Inventory & Pantry Manager",
+    description:
+      "Built a full-stack pantry inventory management app using React, TypeScript, and Tailwind CSS with a Supabase (PostgreSQL) backend, featuring a dual-mode architecture that falls back to localStorage when Supabase isn't configured, enabling zero-backend demo deployments. Designed the PostgreSQL schema and Row Level Security (RLS) policies for per-user data isolation, implemented type-safe form validation with React Hook Form and Zod, and built custom hooks for real-time stock value aggregation, debounced search, and expiration status tracking.",
+    tech: ["React", "TypeScript", "Vite", "Tailwind CSS", "Supabase", "PostgreSQL", "React Hook Form", "Zod", "React Router"],
+    live: "https://pantry-inventory-application.vercel.app/",
+    github: "https://github.com/darvin-patel10/Pantry-Inventory-Application.git",
+  }
 ];
 
 const experiences = [

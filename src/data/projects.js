@@ -49,7 +49,7 @@ const experiences = [
     duration: "September 2025 – December 2025",
     location: "Remote",
     description:
-      "Collaborated on web development projects under mentorship, applying MERN-Stack development concepts and contributing to real-world application development for practical learning.",
+      "Collaborated on web development projects under mentor, applying MERN-Stack development concepts and contributing to real-world application development for practical learning.",
     tech: ["React", "Node.js", "Express.js", "MongoDB", "MySQL"],
   },
   {
